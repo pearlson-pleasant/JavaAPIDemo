@@ -1,0 +1,25 @@
+{
+  "College": {
+    "StudentInformation": {
+      "StudId": 1,
+      "Details": {
+        "DegreeCompleted": "yes",
+        "CourseEnrolled": "MathsComputer",
+        "AdditionalInfo": {
+          "FinalYearProject": "HTMLWebsite",
+          "Academic": {
+            "Year": "2014-2018",
+            "Name": "Mary",
+            "Performance": {
+            "GPA": "3.9",
+            "Rank": {
+              "UniversityRank": 1098,
+              "CollegeRank": 120
+            }
+          }
+          }          
+        }
+      }
+    }
+  }
+}

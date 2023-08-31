@@ -1,0 +1,84 @@
+2023-08-28 11:40:09,096 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: http://localhost:3000
+2023-08-28 11:40:09,845 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "id": 1,
+        "name": "alex",
+        "Role": "testing",
+        "TechnicalSkills": {
+            "language": "Java",
+            "languageRating": 4,
+            "Tool": "Eclipse",
+            "Experience": 3
+        },
+        "PersonalDetails": {
+            "MaritalStatus": "Yes",
+            "phoneNo": 7892813083,
+            "EmailId": "alex@gmail.com"
+        }
+    },
+    {
+        "id": 2,
+        "name": "emma",
+        "Role": "development",
+        "TechnicalSkills": {
+            "language": "Python",
+            "languageRating": 5,
+            "Tool": "PyCharm",
+            "Experience": 5
+        },
+        "PersonalDetails": {
+            "MaritalStatus": "No",
+            "phoneNo": 9876543210,
+            "EmailId": "emma@example.com"
+        }
+    },
+    {
+        "id": 3,
+        "name": "john",
+        "Role": "design",
+        "TechnicalSkills": {
+            "language": "HTML/CSS",
+            "languageRating": 3,
+            "Tool": "Visual Studio Code",
+            "Experience": 2
+        },
+        "PersonalDetails": {
+            "MaritalStatus": "No",
+            "phoneNo": 1234567890,
+            "EmailId": "john@company.net"
+        }
+    },
+    {
+        "id": 4,
+        "name": "lisa",
+        "Role": "marketing",
+        "TechnicalSkills": {
+            "language": "N/A",
+            "languageRating": 0,
+            "Tool": "N/A",
+            "Experience": 4
+        },
+        "PersonalDetails": {
+            "MaritalStatus": "Yes",
+            "phoneNo": 4567891230,
+            "EmailId": "lisa123@gmail.com"
+        }
+    },
+    {
+        "id": 5,
+        "name": "michael",
+        "Role": "management",
+        "TechnicalSkills": {
+            "language": "N/A",
+            "languageRating": 0,
+            "Tool": "Excel",
+            "Experience": 6
+        },
+        "PersonalDetails": {
+            "MaritalStatus": "Yes",
+            "phoneNo": 9870123456,
+            "EmailId": "michael@company.com"
+        }
+    }
+]

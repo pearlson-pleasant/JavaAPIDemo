@@ -1,0 +1,501 @@
+2023-08-25 16:47:59,337 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://gorest.co.in/public/v2
+2023-08-25 16:47:59,486 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=hqdkehk, passwordText=password, usernameText=username, username=hqdkehk}
+2023-08-25 16:48:01,373 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Page Not Found | GO REST</title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="7rGIgttboc0Zi4flw1bMGCH7W5Sg_OB3csTbxgXL5sLfoajtMtB_XL59zdxhdrKtVDdZxEcrexQhFz-pqwbqWw"/>
+    <link rel="stylesheet" href="/assets/application-12b1af367c3abb9d77c0dcc9ce9ef70aa03ad47941579d1b5e4f3d2cd3784a59.css" media="all" data-turbolinks-track="reload"/>
+    <script defer="defer" src="/packs/js/application-e1048667d530386bf4e1.js" data-turbolinks-track="reload"/>
+    <script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"/>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"/>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a shape="rect" class="navbar-brand" href="/">
+          <i class="fas fa-exchange-alt"/>
+ Go REST        </a>
+        <button type="button" class="navbar-toggler" aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#AppNavBar" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="AppNavBar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/chandamama-stories">
+                <i class="fas fa-cloud-moon"/>
+ Chandamama Stories              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/qa">
+                <i class="fas fa-life-ring"/>
+ Help              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/rest-console">
+                <i class="fab fa-linux"/>
+ Rest Console              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a shape="rect" class="nav-link dropdown-toggle" id="ToolsDropDown" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button">
+                <i class="fas fa-tools"/>
+ Tools              </a>
+              <ul class="dropdown-menu" aria-labelledby="ToolsDropDown">
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/consumer/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>
+      <div class="card text-white border-secondary bg-dark">
+        <div class="card-header">
+          <h1 class="card-title text-warning">
+            <i class="fas fa-ghost text-white slide-right"/>
+ HTTP: Not Found           </h1>
+        </div>
+        <div class="card-body">
+          <h3 class="leaad code-text">
+            <code class="mb-3">
+              <span>this_page</span>
+.              <em>not_found</em>
+ = true            </code>
+          </h3>
+          <p class="lead code-text">
+            <code class="mb-2">
+              <span>if</span>
+              <b>you_spelt_it_wrong</b>
+              <br clear="none"/>
+                <span>try_again</span>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>
+elsif                 <b>we_screwed_up</b>
+              </span>
+              <br clear="none"/>
+                <em>print</em>
+              <i>"We're really sorry about that."</i>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>end</span>
+            </code>
+            <code class="mb-2">
+              <span>redirect_to</span>
+              <em>home_page</em>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5"/>
+    <div class="container">
+      <div class="footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">© Go Rest 2023</li>
+          <li class="list-inline-item float-lg-end">
+            <a shape="rect" href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item float-lg-end me-3">
+            <a shape="rect" href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+2023-08-25 16:48:01,386 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12], passwordText=[password, password], usernameText=[username, username], username=[hqdkehk, f@qw12]}
+2023-08-25 16:48:01,818 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Page Not Found | GO REST</title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="T9_DDRpMz2DxXRXd3m9SNk1bLxK3wHqflmrF_iNQo6_PcPSNyO0MjpiQ1Pp0XilZX5A_ZXIglHo4zP3ZM8fNYQ"/>
+    <link rel="stylesheet" href="/assets/application-12b1af367c3abb9d77c0dcc9ce9ef70aa03ad47941579d1b5e4f3d2cd3784a59.css" media="all" data-turbolinks-track="reload"/>
+    <script defer="defer" src="/packs/js/application-e1048667d530386bf4e1.js" data-turbolinks-track="reload"/>
+    <script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"/>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"/>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a shape="rect" class="navbar-brand" href="/">
+          <i class="fas fa-exchange-alt"/>
+ Go REST        </a>
+        <button type="button" class="navbar-toggler" aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#AppNavBar" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="AppNavBar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/chandamama-stories">
+                <i class="fas fa-cloud-moon"/>
+ Chandamama Stories              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/qa">
+                <i class="fas fa-life-ring"/>
+ Help              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/rest-console">
+                <i class="fab fa-linux"/>
+ Rest Console              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a shape="rect" class="nav-link dropdown-toggle" id="ToolsDropDown" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button">
+                <i class="fas fa-tools"/>
+ Tools              </a>
+              <ul class="dropdown-menu" aria-labelledby="ToolsDropDown">
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/consumer/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>
+      <div class="card text-white border-secondary bg-dark">
+        <div class="card-header">
+          <h1 class="card-title text-warning">
+            <i class="fas fa-ghost text-white slide-right"/>
+ HTTP: Not Found           </h1>
+        </div>
+        <div class="card-body">
+          <h3 class="leaad code-text">
+            <code class="mb-3">
+              <span>this_page</span>
+.              <em>not_found</em>
+ = true            </code>
+          </h3>
+          <p class="lead code-text">
+            <code class="mb-2">
+              <span>if</span>
+              <b>you_spelt_it_wrong</b>
+              <br clear="none"/>
+                <span>try_again</span>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>
+elsif                 <b>we_screwed_up</b>
+              </span>
+              <br clear="none"/>
+                <em>print</em>
+              <i>"We're really sorry about that."</i>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>end</span>
+            </code>
+            <code class="mb-2">
+              <span>redirect_to</span>
+              <em>home_page</em>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5"/>
+    <div class="container">
+      <div class="footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">© Go Rest 2023</li>
+          <li class="list-inline-item float-lg-end">
+            <a shape="rect" href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item float-lg-end me-3">
+            <a shape="rect" href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+2023-08-25 16:48:01,825 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12, 12345], passwordText=[password, password, password], usernameText=[username, username, username], username=[hqdkehk, f@qw12, 12345]}
+2023-08-25 16:48:46,416 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Page Not Found | GO REST</title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="eE53TsVrXTXWVXaXJPVs_9PF4o1cf3u1hrmqk5uwkTBK6R07z3sRErjVJUJ96htDDJ6gsbxYrgTwfdRWDD8BQQ"/>
+    <link rel="stylesheet" href="/assets/application-12b1af367c3abb9d77c0dcc9ce9ef70aa03ad47941579d1b5e4f3d2cd3784a59.css" media="all" data-turbolinks-track="reload"/>
+    <script defer="defer" src="/packs/js/application-e1048667d530386bf4e1.js" data-turbolinks-track="reload"/>
+    <script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"/>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"/>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a shape="rect" class="navbar-brand" href="/">
+          <i class="fas fa-exchange-alt"/>
+ Go REST        </a>
+        <button type="button" class="navbar-toggler" aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#AppNavBar" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="AppNavBar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/chandamama-stories">
+                <i class="fas fa-cloud-moon"/>
+ Chandamama Stories              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/qa">
+                <i class="fas fa-life-ring"/>
+ Help              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/rest-console">
+                <i class="fab fa-linux"/>
+ Rest Console              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a shape="rect" class="nav-link dropdown-toggle" id="ToolsDropDown" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button">
+                <i class="fas fa-tools"/>
+ Tools              </a>
+              <ul class="dropdown-menu" aria-labelledby="ToolsDropDown">
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/consumer/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>
+      <div class="card text-white border-secondary bg-dark">
+        <div class="card-header">
+          <h1 class="card-title text-warning">
+            <i class="fas fa-ghost text-white slide-right"/>
+ HTTP: Not Found           </h1>
+        </div>
+        <div class="card-body">
+          <h3 class="leaad code-text">
+            <code class="mb-3">
+              <span>this_page</span>
+.              <em>not_found</em>
+ = true            </code>
+          </h3>
+          <p class="lead code-text">
+            <code class="mb-2">
+              <span>if</span>
+              <b>you_spelt_it_wrong</b>
+              <br clear="none"/>
+                <span>try_again</span>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>
+elsif                 <b>we_screwed_up</b>
+              </span>
+              <br clear="none"/>
+                <em>print</em>
+              <i>"We're really sorry about that."</i>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>end</span>
+            </code>
+            <code class="mb-2">
+              <span>redirect_to</span>
+              <em>home_page</em>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5"/>
+    <div class="container">
+      <div class="footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">© Go Rest 2023</li>
+          <li class="list-inline-item float-lg-end">
+            <a shape="rect" href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item float-lg-end me-3">
+            <a shape="rect" href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+2023-08-25 16:48:46,421 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12, 12345, ], passwordText=[password, password, password, password], usernameText=[username, username, username, username], username=[hqdkehk, f@qw12, 12345, ]}
+2023-08-25 16:48:47,326 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Page Not Found | GO REST</title>
+    <meta name="csrf-param" content="authenticity_token"/>
+    <meta name="csrf-token" content="-NEWx9qd_pbNaI7LLgctVytQmx7UQs4Fn_FP5f0X5Anxxe8T9Y6xL5g6BC_jiyK-LmWT9O4EOJscsZTUuOeSWg"/>
+    <link rel="stylesheet" href="/assets/application-12b1af367c3abb9d77c0dcc9ce9ef70aa03ad47941579d1b5e4f3d2cd3784a59.css" media="all" data-turbolinks-track="reload"/>
+    <script defer="defer" src="/packs/js/application-e1048667d530386bf4e1.js" data-turbolinks-track="reload"/>
+    <script async="true" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4930099895671899"/>
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-7KR6VNWHWS"/>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-7KR6VNWHWS');</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a shape="rect" class="navbar-brand" href="/">
+          <i class="fas fa-exchange-alt"/>
+ Go REST        </a>
+        <button type="button" class="navbar-toggler" aria-controls="AppNavBar" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#AppNavBar" data-bs-toggle="collapse">
+          <span class="navbar-toggler-icon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="AppNavBar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/chandamama-stories">
+                <i class="fas fa-cloud-moon"/>
+ Chandamama Stories              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/qa">
+                <i class="fas fa-life-ring"/>
+ Help              </a>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/rest-console">
+                <i class="fab fa-linux"/>
+ Rest Console              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a shape="rect" class="nav-link dropdown-toggle" id="ToolsDropDown" aria-expanded="false" data-bs-toggle="dropdown" href="#" role="button">
+                <i class="fas fa-tools"/>
+ Tools              </a>
+              <ul class="dropdown-menu" aria-labelledby="ToolsDropDown">
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/base64-encode-decode">Base64 Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/url-encode-decode">Url Encode/Decode</a>
+                </li>
+                <li class="class">
+                  <a shape="rect" class="dropdown-item" href="/tools/gcode-translator">G-Code Translator</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a shape="rect" class="nav-link" href="/consumer/login">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-3">
+      <style type="text/css">.code-text code {color: #bdbdbd;display: block;}.code-text code b {color: #81a2be;font-weight: 900;}.code-text code em {color: #b294bb;font-style: unset;}.code-text code i {color: #b5bd68;}.code-text code span {color: #f0c674;}</style>
+      <div class="card text-white border-secondary bg-dark">
+        <div class="card-header">
+          <h1 class="card-title text-warning">
+            <i class="fas fa-ghost text-white slide-right"/>
+ HTTP: Not Found           </h1>
+        </div>
+        <div class="card-body">
+          <h3 class="leaad code-text">
+            <code class="mb-3">
+              <span>this_page</span>
+.              <em>not_found</em>
+ = true            </code>
+          </h3>
+          <p class="lead code-text">
+            <code class="mb-2">
+              <span>if</span>
+              <b>you_spelt_it_wrong</b>
+              <br clear="none"/>
+                <span>try_again</span>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>
+elsif                 <b>we_screwed_up</b>
+              </span>
+              <br clear="none"/>
+                <em>print</em>
+              <i>"We're really sorry about that."</i>
+              <br clear="none"/>
+            </code>
+            <code class="mb-2">
+              <span>end</span>
+            </code>
+            <code class="mb-2">
+              <span>redirect_to</span>
+              <em>home_page</em>
+            </code>
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-5"/>
+    <div class="container">
+      <div class="footer">
+        <ul class="list-inline">
+          <li class="list-inline-item">© Go Rest 2023</li>
+          <li class="list-inline-item float-lg-end">
+            <a shape="rect" href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item float-lg-end me-3">
+            <a shape="rect" href="/contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

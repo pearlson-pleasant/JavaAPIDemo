@@ -1,0 +1,188 @@
+2023-08-21 16:43:28,654 [main] DEBUG com.ep.api.utils.LoggerManagement - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 16:43:28,724 [main] DEBUG com.ep.api.utils.LoggerManagement - Query parameter set successfully. Key: status, Value: pending
+2023-08-21 16:43:30,926 [main] DEBUG com.ep.api.utils.LoggerManagement - Response body:
+[
+    {
+        "id": 82901748,
+        "category": {
+            "id": 7962040,
+            "name": "culpa fugiat consequat"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "elit proident non",
+            "Excepteur ex in incididunt enim"
+        ],
+        "tags": [
+            {
+                "id": -75108271,
+                "name": "sit anim"
+            },
+            {
+                "id": -85364496,
+                "name": "ipsum"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497183517,
+        "category": {
+            "id": -77945860,
+            "name": "mollit"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "minim cillum officia veli",
+            "consectetur"
+        ],
+        "tags": [
+            {
+                "id": 16059288,
+                "name": "aute adipisicing anim"
+            },
+            {
+                "id": -3200776,
+                "name": "reprehenderit Duis Lorem quis"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497184021,
+        "category": {
+            "id": -62035720,
+            "name": "sunt adipisicing aute"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "adipisicing aliqua nostrud",
+            "minim aute sint et"
+        ],
+        "tags": [
+            {
+                "id": -50034940,
+                "name": "aute anim"
+            },
+            {
+                "id": -55324364,
+                "name": "dolore cillum ut minim"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 888888999999,
+        "name": "boyest",
+        "photoUrls": [
+            "random.dog"
+        ],
+        "tags": [
+            {
+                "id": 123,
+                "name": "goodv"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 111,
+        "category": {
+            "id": 2,
+            "name": "dogs"
+        },
+        "name": "Sharik",
+        "photoUrls": [
+            "stepik.org"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "cute"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497182240,
+        "category": {
+            "id": 0,
+            "name": "monkey"
+        },
+        "name": "fruit",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497184605,
+        "category": {
+            "id": -77945860,
+            "name": "mollit"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "minim cillum officia veli",
+            "consectetur"
+        ],
+        "tags": [
+            {
+                "id": 16059288,
+                "name": "aute adipisicing anim"
+            },
+            {
+                "id": -3200776,
+                "name": "reprehenderit Duis Lorem quis"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497184622,
+        "category": {
+            "id": -62035720,
+            "name": "sunt adipisicing aute"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "adipisicing aliqua nostrud",
+            "minim aute sint et"
+        ],
+        "tags": [
+            {
+                "id": -50034940,
+                "name": "aute anim"
+            },
+            {
+                "id": -55324364,
+                "name": "dolore cillum ut minim"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9222968140497184626,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "pending"
+    }
+]

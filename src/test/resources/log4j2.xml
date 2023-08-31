@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{%message%n}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=green, DEBUG=white, TRACE=blue}" />
+        </Console>
+        <File name="LogFile" fileName="log42j/log-${date:yyyy-MM-dd HH-mm-ss}.log">
+            <PatternLayout pattern="%message%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="Console" />
+              <AppenderRef ref="LogFile" />
+        </Root>
+    </Loggers>
+</Configuration>

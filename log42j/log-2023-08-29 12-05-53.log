@@ -1,0 +1,153 @@
+2023-08-29 12:05:54,588 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:05:54,650 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-29 12:05:54,684 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+2023-08-29 12:05:54,689 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-29 12:05:57,147 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+2023-08-29 12:05:57,159 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:05:57,638 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+2023-08-29 12:05:57,699 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:05:57,704 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-29 12:05:59,216 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "id": 8234,
+    "username": "dhkk",
+    "firstName": "djjj",
+    "lastName": "DWssQRER",
+    "email": "segssdh@gmail.com",
+    "password": "dasfaswe",
+    "phone": "13124124216",
+    "userStatus": 0
+}
+2023-08-29 12:05:59,217 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:05:59,230 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\GetUserSchema.json
+2023-08-29 12:05:59,755 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:05:59,780 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=dasfaswe, username=dhkk}
+2023-08-29 12:06:01,356 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1693290961135"
+}
+2023-08-29 12:06:01,357 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:06:01,363 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+2023-08-29 12:06:01,378 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:01,384 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=dhkk, password=dasfaswe}
+2023-08-29 12:06:02,758 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1693290962557"
+}
+2023-08-29 12:06:02,763 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:06:02,769 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+2023-08-29 12:06:02,795 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:02,797 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-29 12:06:02,801 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body [
+  {
+  "id": 82,
+  "username": "pearl",
+  "firstName": "Muthu",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+},
+{
+  "id": 8,
+  "username": "jeeva",
+  "firstName": "Happy",
+  "lastName": "face",
+  "email": "jeevah@gmail.com",
+  "password": "test@123",
+  "phone": "1312412426",
+  "userStatus": 1
+}
+]
+2023-08-29 12:06:04,352 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+2023-08-29 12:06:04,353 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:06:04,358 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+2023-08-29 12:06:04,367 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:04,368 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-29 12:06:04,371 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+2023-08-29 12:06:04,373 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-29 12:06:04,374 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-29 12:06:06,067 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+2023-08-29 12:06:06,078 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:06,080 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-29 12:06:06,082 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-29 12:06:06,082 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-29 12:06:07,603 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "dhkk"
+}
+2023-08-29 12:06:07,617 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:07,618 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-29 12:06:09,267 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 12:06:09,283 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=dasfaswe, passwordText=password, usernameText=username, username=dhkk}
+2023-08-29 12:06:10,781 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1693290970562"
+}
+2023-08-29 12:06:10,782 [main] INFO  com.ep.api.utils.LoggerManagement -  - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 12:06:10,787 [main] INFO  com.ep.api.utils.LoggerManagement -  - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json

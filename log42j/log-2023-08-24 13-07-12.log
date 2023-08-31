@@ -1,0 +1,21 @@
+2023-08-24 13:07:12,770 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-24 13:07:12,806 [main] DEBUG com.ep.api.utils.LoggerManagement -  - JSON schema validation file: 
+{"gender":"female","name":"jevin","id":717,"email":"testgh@gmail.com","status":"active"}
+ Schema Data Sturcture: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"gender":{"type":"string"},"name":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"status":{"type":"string"}},"required":["id","name","email","gender","status"]}
+2023-08-24 13:07:12,810 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-24 13:07:13,835 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]

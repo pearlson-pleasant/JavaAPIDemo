@@ -1,0 +1,2 @@
+2023-08-21 15:37:10,986 [main] DEBUG com.ep.api.utils.LoggerManagement - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 15:37:11,022 [main] DEBUG com.ep.api.utils.LoggerManagement - Path parameter set successfully. Key: petId, Value: 31

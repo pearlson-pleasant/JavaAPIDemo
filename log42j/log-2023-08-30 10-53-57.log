@@ -1,0 +1,101 @@
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - scenarioName :  PostMethod- Create new user by passing json body
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 1
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Base URI set to: https://petstore.swagger.io/v2
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 2
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Set the content type has:
+application/json
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 3
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 4
+[main] DEBUG com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 5
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 6
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Status code assertion passed. Expected: 200, Actual: 200
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 7
+[main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - Step : 8
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PostMethod- Create new user by passing json body - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks -  - 
+..............End of Scenario: PostMethod- Create new user by passing json body......................
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - scenarioName :  PutMethod- Update the user details by passing json body and query parameter
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 1
+[main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Base URI set to: https://petstore.swagger.io/v2
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 2
+[main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Set the content type has:
+application/json
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 3
+[main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 4
+[main] DEBUG com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 5
+[main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - set the Path parameter has. Key: username, Value: dhkk
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - Step : 6
+[main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks - PutMethod- Update the user details by passing json body and query parameter - ***********************************
+
+[main] INFO  com.ep.cucumber.hooks.ScenarioHooks -  - 
+..............End of Scenario: PutMethod- Update the user details by passing json body and query parameter......................
+

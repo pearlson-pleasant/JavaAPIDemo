@@ -1,0 +1,6 @@
+2023-08-28 11:27:06,236 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-28 11:27:08,880 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+<apiResponse>
+  <message>null for uri: http://petstore.swagger.io/v2/Employee</message>
+  <type>unknown</type>
+</apiResponse>

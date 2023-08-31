@@ -1,0 +1,19 @@
+2023-08-23 17:54:16,567 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-23 17:54:16,602 [main] ERROR com.ep.api.utils.LoggerManagement -  - JSON schema validation failed for file: src\test\resources\apiInputData\createuserinputdata.json
+2023-08-23 17:54:16,602 [main] ERROR com.ep.api.utils.LoggerManagement -  - Validation error message: #: 3 schema violations found
+2023-08-23 17:54:16,605 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-23 17:54:18,358 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]

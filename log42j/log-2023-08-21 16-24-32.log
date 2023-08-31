@@ -1,0 +1,9 @@
+2023-08-21 16:24:35,886 [main] DEBUG com.ep.api.utils.LoggerManagement - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 16:24:43,407 [main] DEBUG com.ep.api.utils.LoggerManagement - Path parameter set successfully. Key: petId, Value: 31
+2023-08-21 16:24:43,457 [main] DEBUG com.ep.api.utils.LoggerManagement - Upload image added to specification. File Path: D:\New folder (3)\SampleApi\src\test\resources\images\sampleimage.jpg
+2023-08-21 16:25:05,984 [main] DEBUG com.ep.api.utils.LoggerManagement - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "additionalMetadata: null\nFile uploaded to ./sampleimage.jpg, 459887 bytes"
+}

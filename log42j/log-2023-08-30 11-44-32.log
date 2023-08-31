@@ -1,0 +1,38 @@
+scenarioName :  PostMethod- Create new user by passing json body
+
+Step : 1
+Base URI set to: https://petstore.swagger.io/v2
+***********************************
+
+Step : 2
+Set the content type has:
+application/json
+***********************************
+
+Step : 3
+JSON schema validation failed for file: src\test\resources\apiInputData\AddNewPetToStore.json
+Validation error message: #: 7 schema violations found
+***********************************
+
+
+..............End of Scenario: PostMethod- Create new user by passing json body......................
+
+scenarioName :  PutMethod- Update the user details by passing json body and query parameter
+
+Step : 1
+Base URI set to: https://petstore.swagger.io/v2
+***********************************
+
+Step : 2
+Set the content type has:
+application/json
+***********************************
+
+Step : 3
+JSON schema validation failed for file: src\test\resources\apiInputData\AddNewPetToStore.json
+Validation error message: #: 7 schema violations found
+***********************************
+
+
+..............End of Scenario: PutMethod- Update the user details by passing json body and query parameter......................
+

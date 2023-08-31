@@ -1,0 +1,28 @@
+{
+  "negativeData": [
+    {
+      "usernameText": "username",
+      "username": "hqdkehk",
+      "passwordText": "password",
+      "password": "hqdkehk"
+    },
+    {
+      "usernameText": "username",
+      "username": "f@qw12",
+      "passwordText": "password",
+      "password": "f@qw12"
+    },
+    {
+      "usernameText": "username",
+      "username": "12345",
+      "passwordText": "password",
+      "password": "12345"
+    },
+    {
+      "usernameText": "username",
+      "username": "",
+      "passwordText": "password",
+      "password": ""
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+2023-08-29 19:01:38,368 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 19:01:38,423 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Set the content type has:
+application/json
+2023-08-29 19:01:38,468 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+2023-08-29 19:01:38,474 [main] DEBUG com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-29 19:01:40,513 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+2023-08-29 19:01:40,526 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Status code assertion passed. Expected: 200, Actual: 200
+2023-08-29 19:01:40,871 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+2023-08-29 19:01:40,929 [main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Base URI set to: https://petstore.swagger.io/v2
+2023-08-29 19:01:40,930 [main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Set the content type has:
+application/json
+2023-08-29 19:01:40,934 [main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+2023-08-29 19:01:40,937 [main] DEBUG com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-29 19:01:40,942 [main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - set the Path parameter has. Key: username, Value: dhkk
+2023-08-29 19:01:42,316 [main] INFO  com.ep.api.utils.LoggerManagement - PutMethod- Update the user details by passing json body and query parameter - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}

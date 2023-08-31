@@ -1,0 +1,83 @@
+2023-08-25 16:50:30,285 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:30,348 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:30,366 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: aaaa
+2023-08-25 16:50:32,263 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+2023-08-25 16:50:32,319 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:32,320 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: A124
+2023-08-25 16:50:33,563 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+2023-08-25 16:50:33,577 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:33,578 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: @q#erf
+2023-08-25 16:50:34,829 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 1,
+    "type": "error",
+    "message": "User not found"
+}
+2023-08-25 16:50:34,845 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:34,871 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=aaaaa, password=dsaff}
+2023-08-25 16:50:36,069 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962436024"
+}
+2023-08-25 16:50:36,070 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=[aaaaa, bbbbb], password=[dsaff, asdsd]}
+2023-08-25 16:50:37,264 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962437211"
+}
+2023-08-25 16:50:37,265 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=[aaaaa, bbbbb, W@fgg], password=[dsaff, asdsd, 123Sdd]}
+2023-08-25 16:50:38,507 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962438452"
+}
+2023-08-25 16:50:38,518 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-25 16:50:38,569 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=hqdkehk, passwordText=password, usernameText=username, username=hqdkehk}
+2023-08-25 16:50:39,850 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962439783"
+}
+2023-08-25 16:50:39,854 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12], passwordText=[password, password], usernameText=[username, username], username=[hqdkehk, f@qw12]}
+2023-08-25 16:50:41,029 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962440966"
+}
+2023-08-25 16:50:41,031 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12, 12345], passwordText=[password, password, password], usernameText=[username, username, username], username=[hqdkehk, f@qw12, 12345]}
+2023-08-25 16:50:42,324 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962442268"
+}
+2023-08-25 16:50:42,325 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{password=[hqdkehk, f@qw12, 12345, ], passwordText=[password, password, password, password], usernameText=[username, username, username, username], username=[hqdkehk, f@qw12, 12345, ]}
+2023-08-25 16:50:43,580 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692962443525"
+}

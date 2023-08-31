@@ -1,0 +1,100 @@
+scenarioName :  PostMethod- Create new user by passing json body
+
+Step : 1
+Base URI set to: https://petstore.swagger.io/v2
+***********************************
+
+Step : 2
+Set the content type has: application/json
+***********************************
+
+Step : 3
+JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+***********************************
+
+Step : 4
+Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+***********************************
+
+Step : 5
+Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+***********************************
+
+Step : 6
+Status code assertion passed. Expected: 200, Actual: 200
+***********************************
+
+Step : 7
+JSON schema validation is successful for file: /n\src\test\resources\apiJsonSchema\createuserschema.json
+***********************************
+
+Step : 8
+JSON data deserialized successfully from file: src\test\resources\apiInputData\createuserinputdata.json
+***********************************
+
+
+..............End of Scenario: PostMethod- Create new user by passing json body......................
+
+scenarioName :  PutMethod- Update the user details by passing json body and query parameter
+
+Step : 1
+Base URI set to: https://petstore.swagger.io/v2
+***********************************
+
+Step : 2
+Set the content type has: application/json
+***********************************
+
+Step : 3
+JSON schema validation file: 
+{"firstName":"djjj","lastName":"DWssQRER","password":"dasfaswe","userStatus":0,"phone":"13124124216","id":8234,"email":"segssdh@gmail.com","username":"dhkk"}
+ Schema Data Structure: 
+{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"firstName":{"type":"string"},"lastName":{"type":"string"},"password":{"type":"string"},"userStatus":{"type":"integer"},"phone":{"type":"string"},"id":{"type":"integer"},"email":{"type":"string"},"username":{"type":"string"}},"required":["id","username","firstName","lastName","email","password","phone","userStatus"]}
+***********************************
+
+Step : 4
+Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+***********************************
+
+Step : 5
+set the Path parameter has. Key: username, Value: dhkk
+***********************************
+
+Step : 6
+Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+***********************************
+
+
+..............End of Scenario: PutMethod- Update the user details by passing json body and query parameter......................
+

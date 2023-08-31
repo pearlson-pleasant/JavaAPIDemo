@@ -1,0 +1,1 @@
+2023-08-29 18:52:03,096 [main] INFO  com.ep.api.utils.LoggerManagement - PostMethod- Create new user by passing json body - Base URI set to: https://petstore.swagger.io/v2

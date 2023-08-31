@@ -1,0 +1,8 @@
+{
+  "petIdText": "petId",
+  "petId": 31,
+  "status":"status",
+  "available":"available",
+  "pending":"pending",
+  "sold":"sold"
+}

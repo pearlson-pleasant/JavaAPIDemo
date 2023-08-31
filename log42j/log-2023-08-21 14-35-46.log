@@ -1,0 +1,3 @@
+2023-08-21 14:35:49,936 [main] DEBUG com.ep.api.utils.LoggerManagement - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 14:36:01,355 [main] DEBUG com.ep.api.utils.LoggerManagement - Request Spec Details:
+io.restassured.internal.RequestSpecificationImpl@69909c14

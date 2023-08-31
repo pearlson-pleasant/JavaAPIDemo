@@ -1,0 +1,3 @@
+2023-08-23 15:51:02,738 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-23 15:52:40,110 [main] DEBUG com.ep.api.utils.LoggerManagement -  - JSON schema validation successful for file: src\test\resources\apiInputData\CreateNewUserDetailsInGorest.json
