@@ -1,0 +1,15 @@
+2023-08-22 16:20:52,458 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-22 16:20:52,465 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-22 16:20:56,363 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: id, Value: 4087685
+2023-08-22 16:20:57,599 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "message": "Resource not found"
+}

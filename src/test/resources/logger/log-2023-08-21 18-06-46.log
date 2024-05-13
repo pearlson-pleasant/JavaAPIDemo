@@ -1,0 +1,40 @@
+2023-08-21 18:06:47,221 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:06:47,287 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:06:47,292 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 4,
+  "category": {
+    "id": 31,
+    "name": "ruby"
+  },
+  "name": "joe",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 23,
+      "name": "stonegold"
+    }
+  ],
+  "status": "available"
+}
+2023-08-21 18:06:49,228 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "id": 4,
+    "category": {
+        "id": 31,
+        "name": "ruby"
+    },
+    "name": "joe",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 23,
+            "name": "stonegold"
+        }
+    ],
+    "status": "available"
+}

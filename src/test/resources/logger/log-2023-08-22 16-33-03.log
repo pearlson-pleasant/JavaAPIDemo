@@ -1,0 +1,17 @@
+2023-08-22 16:33:04,031 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-22 16:33:04,039 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-22 16:33:11,222 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]

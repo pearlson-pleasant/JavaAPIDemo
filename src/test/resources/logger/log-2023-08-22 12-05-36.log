@@ -1,0 +1,26 @@
+2023-08-22 12:05:40,885 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-22 12:05:40,998 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=aaaaa, password=dsaff}
+2023-08-22 12:05:43,088 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692686144518"
+}
+2023-08-22 12:05:43,089 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=[aaaaa, bbbbb], password=[dsaff, asdsd]}
+2023-08-22 12:05:44,313 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692686145804"
+}
+2023-08-22 12:05:44,315 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=[aaaaa, bbbbb, W@fgg], password=[dsaff, asdsd, 123Sdd]}
+2023-08-22 12:05:45,631 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692686147134"
+}
+2023-08-22 12:05:50,045 [main] INFO  com.ep.api.utils.LoggerManagement -  - List of Negative response body data: java.util.ArrayList$Itr@239b98cb

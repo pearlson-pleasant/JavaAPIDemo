@@ -1,0 +1,109 @@
+2023-08-21 18:57:32,774 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:32,827 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:57:32,831 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-21 18:57:34,892 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+2023-08-21 18:57:35,293 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:35,300 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-21 18:57:36,581 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "id": 8234,
+    "username": "dhkk",
+    "firstName": "djjj",
+    "lastName": "DWssQRER",
+    "email": "segssdh@gmail.com",
+    "password": "dasfaswe",
+    "phone": "13124124216",
+    "userStatus": 0
+}
+2023-08-21 18:57:37,008 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:38,326 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:39,614 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:39,615 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:57:39,620 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body [
+  {
+  "id": 82,
+  "username": "pearl",
+  "firstName": "Muthu",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+},
+{
+  "id": 8,
+  "username": "jeeva",
+  "firstName": "Happy",
+  "lastName": "face",
+  "email": "jeevah@gmail.com",
+  "password": "test@123",
+  "phone": "1312412426",
+  "userStatus": 1
+}
+]
+2023-08-21 18:57:40,871 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "ok"
+}
+2023-08-21 18:57:40,883 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:40,885 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:57:40,886 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-21 18:57:40,887 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-21 18:57:42,051 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "8234"
+}
+2023-08-21 18:57:42,060 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:42,061 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:57:42,063 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+  "id": 8234,
+  "username": "dhkk",
+  "firstName": "djjj",
+  "lastName": "DWssQRER",
+  "email": "segssdh@gmail.com",
+  "password": "dasfaswe",
+  "phone": "13124124216",
+  "userStatus": 0
+}
+2023-08-21 18:57:42,064 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: username, Value: dhkk
+2023-08-21 18:57:43,332 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "dhkk"
+}
+2023-08-21 18:57:43,341 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 18:57:43,342 [main] INFO  com.ep.api.utils.LoggerManagement -  - Request Spec Details:
+application/json
+2023-08-21 18:57:44,724 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2

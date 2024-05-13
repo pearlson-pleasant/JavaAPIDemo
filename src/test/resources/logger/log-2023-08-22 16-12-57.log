@@ -1,0 +1,121 @@
+2023-08-22 16:13:00,393 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "id": 4616619,
+        "name": "Vidhur Saini",
+        "email": "saini_vidhur@lindgren.example",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 4616618,
+        "name": "Abhisyanta Gowda",
+        "email": "abhisyanta_gowda@rolfson-blick.test",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 4616615,
+        "name": "Chakravartee Joshi",
+        "email": "joshi_chakravartee@goyette.example",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 4616614,
+        "name": "Vasudeva Kocchar",
+        "email": "kocchar_vasudeva@lind.test",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 4616613,
+        "name": "Anuja Sethi",
+        "email": "anuja_sethi@romaguera-shanahan.test",
+        "gender": "male",
+        "status": "active"
+    },
+    {
+        "id": 4616612,
+        "name": "Devdan Nambeesan",
+        "email": "nambeesan_devdan@hilll.example",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 4616611,
+        "name": "Bankimchandra Shukla VM",
+        "email": "vm_bankimchandra_shukla@thompson.test",
+        "gender": "female",
+        "status": "inactive"
+    },
+    {
+        "id": 4616610,
+        "name": "Fr. Gautam Kaniyar",
+        "email": "fr_kaniyar_gautam@gibson.test",
+        "gender": "female",
+        "status": "active"
+    },
+    {
+        "id": 4616609,
+        "name": "Swapnil Deshpande",
+        "email": "swapnil_deshpande@sanford.test",
+        "gender": "male",
+        "status": "inactive"
+    },
+    {
+        "id": 4616608,
+        "name": "Fr. Durga Guha",
+        "email": "guha_fr_durga@will.example",
+        "gender": "female",
+        "status": "active"
+    }
+]
+2023-08-22 16:13:00,781 [main] DEBUG com.ep.api.utils.LoggerManagement -  - JSON schema validation successful for file: \src\test\resources\apiJsonSchema\GetAllUserSchema.json
+2023-08-22 16:13:00,806 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-22 16:13:00,811 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-22 16:13:01,283 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "field": "email",
+        "message": "has already been taken"
+    }
+]
+2023-08-22 16:13:01,330 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-22 16:13:01,332 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-22 16:13:01,337 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: id, Value: 4087685
+2023-08-22 16:13:02,277 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "message": "Resource not found"
+}
+2023-08-22 16:13:02,291 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the content type has:
+application/json
+2023-08-22 16:13:02,292 [main] DEBUG com.ep.api.utils.LoggerManagement -  - Json body {
+	"id": 717,
+	"name": "jevin",
+	"email": "testgh@gmail.com",
+	"gender": "female",
+	"status": "active"
+}
+
+2023-08-22 16:13:02,293 [main] INFO  com.ep.api.utils.LoggerManagement -  - set the Path parameter has. Key: id, Value: 4087685
+2023-08-22 16:13:03,229 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "message": "Resource not found"
+}

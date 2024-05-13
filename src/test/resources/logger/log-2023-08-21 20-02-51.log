@@ -1,0 +1,10 @@
+2023-08-21 20:02:56,020 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 20:03:06,754 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=dhkk, password=dasfaswe}
+2023-08-21 20:03:51,578 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692628426016"
+}
+2023-08-21 20:04:10,502 [main] DEBUG com.ep.api.utils.LoggerManagement -  - JSON schema validation successful for file: \src\test\resources\apiJsonSchema\createuserschema.json

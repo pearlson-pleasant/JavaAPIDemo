@@ -1,0 +1,121 @@
+2023-08-21 17:53:45,569 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-21 17:53:45,637 [main] INFO  com.ep.api.utils.LoggerManagement -  - Query parameter set successfully. Key: status, Value: sold
+2023-08-21 17:53:47,585 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+[
+    {
+        "id": 113883386004,
+        "category": {
+            "id": 3,
+            "name": "reptiles"
+        },
+        "name": "kaa",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 113883386105,
+                "name": "dangerous"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 113883386002,
+        "category": {
+            "id": 1,
+            "name": "dogs"
+        },
+        "name": "ozzy",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 113883386101,
+                "name": "calm"
+            },
+            {
+                "id": 113883386103,
+                "name": "big"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 113883386003,
+        "category": {
+            "id": 2,
+            "name": "cats"
+        },
+        "name": "tiger",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 113883386102,
+                "name": "playful"
+            },
+            {
+                "id": 113883386104,
+                "name": "active"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 134,
+        "category": {
+            "id": 134
+        },
+        "name": "0SPq",
+        "photoUrls": [
+            "/course/pmp-pmbok6-35-pdus/"
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 18082023,
+        "category": {
+            "id": 1,
+            "name": "Scooby-Dooby-Doo"
+        },
+        "name": "Scooby",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 1,
+                "name": "Vascinado/Alimentado"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 113883386001,
+        "category": {
+            "id": 1,
+            "name": "dogs"
+        },
+        "name": "mira",
+        "photoUrls": [
+            
+        ],
+        "tags": [
+            {
+                "id": 113883386101,
+                "name": "calm"
+            },
+            {
+                "id": 113883386102,
+                "name": "playful"
+            }
+        ],
+        "status": "sold"
+    }
+]

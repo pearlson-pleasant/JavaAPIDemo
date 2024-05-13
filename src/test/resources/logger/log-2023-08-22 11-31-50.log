@@ -1,0 +1,16 @@
+2023-08-22 11:32:00,919 [main] INFO  com.ep.api.utils.LoggerManagement -  - Base URI set to: https://petstore.swagger.io/v2
+2023-08-22 11:32:22,820 [main] INFO  com.ep.api.utils.LoggerManagement -  -  set the Query parameter has. Key: {username=aaaaa, password=dsaff}, Value: {}
+2023-08-22 11:33:12,624 [main] INFO  com.ep.api.utils.LoggerManagement -  - Set the query parameter has :
+{username=aaaaa, password=dsaff}
+2023-08-22 11:34:08,229 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692684244329"
+}
+2023-08-22 11:34:50,023 [main] INFO  com.ep.api.utils.LoggerManagement -  - Response body:
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "logged in user session:1692684244329"
+}
